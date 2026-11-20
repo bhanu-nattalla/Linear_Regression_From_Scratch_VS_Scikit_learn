@@ -1,0 +1,21 @@
+[project]
+name = "linear-regression-scratch-vs-sklearn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "bhanu-nattalla", email = "bhanunattala@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.5",
+    "pandas>=3.1.1",
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+linear-regression-scratch-vs-sklearn = "linear_regression_scratch_vs_sklearn:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
